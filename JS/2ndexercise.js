@@ -1,12 +1,12 @@
-const addTwoNumbers = (l1,l2) => {
-    const passToNumber = (linkedList) => {
+const addTwoNumbers = function (l1,l2) {
+    const passToNumber = function (linkedList)  {
         let number = "";
         for (let i = 0; i < linkedList.length; i++) {
             number += linkedList[i];
         }
         return parseInt(number);
     }
-    const passToArray = (number) => {
+    const passToArray = function (number) {
         const array = [],
         string = number.toString();
         for (let i = 0; i < string.length; i++) {
