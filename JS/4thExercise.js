@@ -3,6 +3,7 @@
  * @param {number[]} nums2
  * @return {number}
  */
+// TODO: Add comments (complex algorithm)
 const findMedianSortedArrays = function(nums1, nums2) {
     
     const quickSort = (array) => {

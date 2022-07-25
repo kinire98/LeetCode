@@ -1,3 +1,8 @@
+/**
+ * @param  {} l1
+ * @param  {} l2
+ */
+//! This won't work on leetcode. It does the work but in leetcode gives me an error in line 27. I know pretty confusing
 const addTwoNumbers = function (l1,l2) {
     const passToNumber = function (linkedList)  {
         let number = "";

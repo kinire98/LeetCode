@@ -2,6 +2,7 @@
  * @param  {string} s
  * @return {number}
  */
+//TODO: Add comments (complex algorithm)
 const lengthOfLongestSubstring = (s) => {
     if (typeof s !== "string") {return "The given data is not a string"}
     let l = 0,

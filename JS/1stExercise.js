@@ -1,3 +1,8 @@
+/**
+ * @param  {} nums
+ * @param  {} target
+ */
+//* Bruteforced
 const twoSum = (nums,target) => {
     if (!Array.isArray(nums)) return "Incorrect data type1";
     if (typeof target !== "number") return "Incorrect data type";
